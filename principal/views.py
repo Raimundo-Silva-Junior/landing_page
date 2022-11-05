@@ -8,4 +8,4 @@ def index(request):
 
 def home(request):
     
-    return render(request, template_name="principal/home.html")
+    return render(request, template_name="principal/home.html", context={"miau": "aaaaaaaaaaaaa"})
