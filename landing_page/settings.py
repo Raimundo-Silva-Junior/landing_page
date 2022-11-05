@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'principal.apps.PrincipalConfig'
+    'principal.apps.PrincipalConfig',
+    'rest_framework',
+    'webpack_loader'
 ]
 
 MIDDLEWARE = [
